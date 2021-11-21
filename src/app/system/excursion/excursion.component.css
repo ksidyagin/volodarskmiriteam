@@ -1,0 +1,218 @@
+.card {
+    width: 80%;
+    min-width: 320px;
+    background: #5044ae; /*box-shadow: 0px 4px 4px rgba(80, 68, 174, 0.25);*/
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-box-shadow: 6px 6px 26px -1px rgba(87, 25, 246, 0.2);
+    -moz-box-shadow: 6px 6px 26px -1px rgba(87, 25, 246, 0.2);
+    box-shadow: 6px 6px 26px -1px rgba(87, 25, 246, 0.2);
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.card > img {
+    image-rendering: optimizeQuality;
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.card .container {
+    border-radius: 0 0 20px 20px;
+    background-color: #ffffff;
+}
+.block {
+    margin: 20px;
+    text-align: justify;
+    color: #000;
+    list-style-type: none;
+    font-size: 110%;
+}
+
+form {
+    margin: 20px;
+    line-height: 8px;
+}
+
+fieldset > p {
+    margin: 20px 0;
+}
+
+/*  */
+/*  */
+.slider-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    height: 500px;
+    border-radius: 20px 20px 0 0;
+}
+.menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+}
+.menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+}
+.menu label:hover,
+.menu label:focus {
+    background: #1c87c9;
+}
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+}
+[id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+.slide-1 {
+    background-image: url("../../../assets/images/excursion/excursion-one.jpg");
+}
+.slide-2 {
+    background-image: url("../../../assets/images/excursion/excursion-two.jpg");
+}
+.slide-3 {
+    background-image: url("../../../assets/images/excursion/excursion-three.jpg");
+}
+.slide-4 {
+    background-image: url("../../../assets/images/excursion/excursion-four.jpg");
+}
+/* 2 card */
+.slide2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+}
+[id^="slide2"]:checked + .slide2 {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+.slide2-5 {
+    background-image: url("../../../assets/images/excursion/excursion-five.jpg");
+}
+.slide2-6 {
+    background-image: url("../../../assets/images/excursion/excursion-six.jpg");
+}
+.slide2-7 {
+    background-image: url("../../../assets/images/excursion/excursion-seven.jpg");
+}
+/* 3 card */
+.slide3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+}
+[id^="slide3"]:checked + .slide3 {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+.slide3-8 {
+    background-image: url("../../../assets/images/excursion/excursion-eight.jpg");
+}
+.slide3-9 {
+    background-image: url("../../../assets/images/excursion/excursion-nine.jpg");
+}
+/* 4 card */
+.slide4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+}
+[id^="slide4"]:checked + .slide4 {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+.slide4-10 {
+    background-image: url("../../../assets/images/excursion/excursion-ten.jpg");
+}
+.slide4-11 {
+    background-image: url("../../../assets/images/excursion/excursion-eleven.jpg");
+}
+.slide4-12 {
+    background-image: url("../../../assets/images/excursion/excursion-twelve.jpg");
+}
+/* 5 card */
+.slide5 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+}
+[id^="slide5"]:checked + .slide5 {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+}
+.slide5-13 {
+    background-image: url("../../../assets/images/excursion/excursion-threeten.jpg");
+}
+.slide5-14 {
+    background-image: url("../../../assets/images/excursion/excursion-fourten.jpg");
+}
+.slide5-15 {
+    background-image: url("../../../assets/images/excursion/excursion-fiften.jpg");
+}

@@ -1,0 +1,124 @@
+.title {
+    font-size: 48px;
+    color: #383636;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.frametitle {
+    font-weight: bolder;
+    font-size: 32px;
+    color: #383636;
+    text-align: center;
+}
+
+.leftframe {
+    width: 750px;
+    margin-top: 30px;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: gray;
+    float: left;
+}
+
+.rightframe {
+    width: 750px;
+    margin-top: 30px;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: gray;
+    float: right;
+}
+
+.inframe {
+    text-align: center;
+    font-size: 25px;
+    max-width: 700px;
+    background: rgba(80, 68, 174, 1);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+    color: #ffffff;
+}
+
+.plashka {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    font-size: 25px;
+    background: rgba(80, 68, 174, 1);
+    border-radius: 20px;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.plashka-link {
+    width: 50%;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.leftplashka {
+    text-align: center;
+    font-size: 25px;
+    width: 670px;
+    background: rgba(80, 68, 174, 1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    color: #ffffff;
+    float: left;
+}
+
+.rightplashka {
+    text-align: center;
+    font-size: 25px;
+    width: 670px;
+    background: rgba(80, 68, 174, 1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    color: #ffffff;
+    float: right;
+}
+
+.rightplashka {
+    margin-right: 50px;
+    float: right;
+}
+
+.leftplashimg {
+    margin-left: 50px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+ul {
+    display: flex;
+}
+
+.text {
+    font-size: 25px;
+    color: #383636;
+}
+
+.otstup {
+    margin-left: 100px;
+}

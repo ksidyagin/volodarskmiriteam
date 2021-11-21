@@ -1,0 +1,102 @@
+<div class="login">
+    <div class="container-auth">
+        <div class="login__wrapper">
+            <div class="login__top">
+                <img src="../../../assets/images/auth/auth-logo.png" alt="" class="login__top-img">
+                <p class="login__top-district">Володарский район
+                    <br>
+                    <span class="login__top-name">Официальный сайт</span>
+                </p>
+            </div>
+
+            <div class="login__title">
+                Регистрация
+            </div>
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="login__item">
+                    <p class="login__item-text">Имя</p>
+                    <input formControlName="firstName" type="text" class="login__item-input">
+                    <p class="form-error" *ngIf="registerForm.get('firstName').errors && registerForm.get('firstName').touched">
+                        Имя обязательно</p>
+                </div>
+                <div class="login__item">
+                    <p class="login__item-text">Фамилия</p>
+                    <input formControlName="lastName" type="text" class="login__item-input">
+                    <p class="form-error" *ngIf="registerForm.get('lastName').errors && registerForm.get('lastName').touched">
+                        Фамилия обязательно</p>
+                </div>
+                <div class="login__item">
+                    <p class="login__item-text">Отчество</p>
+                    <input formControlName="patronymic" type="text" class="login__item-input">
+                    <p class="form-error" *ngIf="registerForm.get('patronymic').errors && registerForm.get('patronymic').touched">
+                        Поле должно быть заполнено</p>
+                </div>
+                <div class="login__item">
+                    <p class="login__item-text">Пол</p>
+                    <hr class="login__item-check--hr">
+                    <div class="login__item-checks">
+                        <div class="login__item-check">
+                            <input type="radio" class="login__item-input--check" name="sex" value="1" formControlName="sex">
+                            <p class="login__item-check--text">М</p>
+                        </div>
+                        <div class="login__item-check">
+                            <input type="radio" class="login__item-input--check" name="sex" value="0" formControlName="sex">
+                            <p class="login__item-check--text">Ж</p>
+                        </div>
+                    </div>
+                    <hr class="login__item-check--hr">
+                    <!--  -->
+                </div>
+                <div class="login__item">
+                    <p class="login__item-text">Дата рождения</p>
+                    <input formControlName="dateBirth" type="date" class="login__item-input">
+                    <p class="form-error" *ngIf="registerForm.get('dateBirth').errors && registerForm.get('dateBirth').touched">
+                        Поле должно быть заполнено</p>
+                </div>
+                <div class="login__item">
+                    <p class="login__item-text">Email</p>
+                    <input formControlName="email" type="email" class="login__item-input">
+                    <p class="form-error" *ngIf="registerForm.get('email').errors && registerForm.get('email').touched">
+                        Email обязателен</p>
+                </div>
+
+                <div class="login__item">
+                    <p class="login__item-text">Пароль</p>
+                    <input formControlName="password" type="password" class="login__item-input">
+                    <p class="form-error" *ngIf="registerForm.get('password').errors && registerForm.get('password').touched">
+                        Пароль обязателен!</p>
+                </div>
+                
+                <div class="login__item">
+                    <p class="login__item-text">Место жительства</p>
+                    <input formControlName="placement"  type="text" class="login__item-input">
+                    <p class="form-error" *ngIf="registerForm.get('placement').errors && registerForm.get('placement').touched">
+                        Поле обязательно</p>
+        
+                </div>
+                <div class="login__item">
+                    <p class="login__item-text">СНИЛС</p>
+                    <input formControlName="snils" type="text" class="login__item-input">
+                    <p class="form-error" *ngIf="registerForm.get('snils').errors && registerForm.get('snils').touched">
+                        СНИЛС не содержит столько символов!</p>
+                </div>
+    
+                <div class="login__cheked">
+                    <input type="checkbox" class="login__cheked-input" formControlName="agree_checkbox">
+                    <p class="login__cheked-text">
+                        Нажимая на кнопку, вы даете согласие на обработку персональных данных
+                    </p>
+                </div>
+    
+                <button type="submit" [disabled]="registerForm.invalid" class="login__btn">Зарегистрироваться</button>
+            </form>
+            
+
+            <div class="login__footer">
+                <div class="login__footer-text">
+                    <a [routerLink]="['', 'auth', 'login']" class="login__footer-reg">Есть аккаунт? Войдите!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

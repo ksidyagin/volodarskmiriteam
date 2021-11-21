@@ -1,0 +1,131 @@
+.custom-checkbox__field:checked + .custom-checkbox__content::after {
+    opacity: 1;
+}
+
+.custom-checkbox__field:focus + .custom-checkbox__content::before {
+    outline: 2px solid #f00;
+    outline-offset: 2px;
+}
+
+.custom-checkbox__field:disabled + .custom-checkbox__content {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 20px 50px;
+    box-shadow: 7px 4px 4px #5044ae40;
+    background-color: #5044ae;
+}
+.card__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    width: 15%;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000;
+    background: #fff;
+}
+.card__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.card__text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-decoration: underline;
+    color: #fff;
+}
+.card__disruption {
+    margin-top: -40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+}
+.card__image {
+    position: absolute;
+    left: -90px;
+    top: 50%;
+    z-index: -1;
+    transform: translate(0, -50%);
+}
+
+.list {
+    width: 100%;
+    margin: 90px auto;
+}
+.list__items {
+    position: relative;
+    width: 95%;
+    grid-gap: 50px;
+    gap: 50px;
+    margin-left: 5%;
+}
+.list__items + .list__items {
+    margin-top: 135px;
+}
+
+.nav {
+    margin-top: 100px;
+}
+.nav__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #000;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nav__items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav__items::before {
+    content: "";
+    position: static;
+    display: block;
+    width: 100px;
+    height: 1px;
+    background-color: #5044ae;
+}
+.nav__items::after {
+    content: "";
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    width: 3px;
+    height: 3px;
+    background-color: #5044ae;
+    transform: translate(0, -50%) rotate(40deg);
+}
+.nav__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #5044ae;
+}
+
+.blockDownload {
+    margin-top: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,45 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-educ', 'profile-company']" class="profile__links-item">Данные</a>
+    <a [routerLink]="['', 'profile-educ', 'statements']" class="profile__links-item">Мои заявления</a>
+    <a [routerLink]="['', 'profile-educ', 'employees']"
+        class="profile__links-item profile__links-item--active">Сотрудники</a>
+</div>
+
+<h2 class="profile__title">Основная информация</h2>
+<hr class="profile__title-hr">
+
+<div class="emp__top">
+    <div class="emp__top-avatar">
+        <img src="../../../assets/images/profile-company/emp__list-item-one.png" alt="" class="emp__top-avatar--img">
+    </div>
+
+    <div class="emp__top-info">
+        <p class="emp__top-info--name">Альхимович Антон Владимирович</p>
+        <p class="emd__top-info--text">Должность:
+            <span> Руководитель проектов</span>
+        </p>
+        <p class="emd__top-info--text">Почта:
+            <span> danilsoul2777@gmail.com</span>
+        </p>
+        <p class="emd__top-info--text">Телефон:
+            <span> 8(920)-298-91-29</span>
+        </p>
+    </div>
+
+    <div class="emp__top-btns">
+        <button class="emp__top-btn">Заблокировать</button>
+        <button class="emp__top-btn">Удалить сотрудника</button>
+    </div>
+</div>
+
+<hr class="emp__hr">
+
+<h2 class="profile__title">Включен в группы доступа</h2>
+<hr class="profile__title-hr">
+
+<div class="emp__groups">
+    <div class="emp__groups-item">
+        <p class="emp__groups-item-title">Администраторы профиля организации</p>
+        <button class="emp__groups-item--btn">Исключить из группы</button>
+    </div>
+</div>

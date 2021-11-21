@@ -1,0 +1,66 @@
+<header class="header">
+  <div class="header__top">
+    <div class="container">
+      <div class="header__top-wrapper">
+        <div class="header__top-phone">
+          <img src="../../../assets/images/header__top-phone.png" alt="" class="header__top-phone--img">
+          <p class="header__top-phone--text">
+            Телефон горячей линии:
+            <span class="header__top-phone--under">8(800)-000-00-00</span>
+          </p>
+          <p class="header__top-phone--text" style="margin-left: 20px">
+            Портал MirITeam для Володарского района.
+          </p>
+        </div>
+        <a class="header__top-login" [routerLink]="['', 'auth', 'login']">
+          <img src="../../../assets/images/header__top-login.png" alt="" class="header__top-login--img">
+          <p class="header__top-login--text">
+            Войти
+          </p>
+          <img src="../../../assets/images/header__top-exit.png" alt="" class="header__top-login--img">
+        </a>
+        <div class="header__top-city">
+          <img src="../../../assets/images/header__top-city.png" alt="" class="header__top-city--img">
+          <p class="header__top-phone--under">Нижний Новгород</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header__main">
+    <div class="container">
+      <div class="header__main-wrapper">
+        <div class="header__main-logo">
+          <a [routerLink]="['', 'system', 'main']">
+            <img src="../../../assets/images/logo.png" alt="" class="header__main-logo--img">
+          </a>
+          <p class="header__main-logo--district">Володарский район
+            <br>
+            <span class="header__main-logo--name">Разработано: MirITeam</span>
+          </p>
+        </div>
+
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a class="header__list-link" [routerLink]="['', 'system', 'in-numbers']">О Володарске</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" [routerLink]="['', 'system', 'business']">Бизнесу</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" [routerLink]="['', 'system', '']">Промышленности</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" [routerLink]="['', 'system', 'prof']">Профориентация</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" [routerLink]="['', 'system', 'press-center']">Пресс-центр</a>
+          </li>
+          <li class="header__list-item">
+            <a class="header__list-link" [routerLink]="['', 'profile-people', 'profile']">Профиль</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>

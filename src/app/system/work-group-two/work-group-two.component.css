@@ -1,0 +1,126 @@
+.custom-checkbox__field:checked + .custom-checkbox__content::after {
+    opacity: 1;
+}
+
+.custom-checkbox__field:focus + .custom-checkbox__content::before {
+    outline: 2px solid #f00;
+    outline-offset: 2px;
+}
+
+.custom-checkbox__field:disabled + .custom-checkbox__content {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 20px 61px 20px 20px;
+    box-shadow: 7px 4px 4px #5044ae40;
+    background-color: #5044ae;
+}
+.card__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    width: 260px;
+    height: 60px;
+    min-width: 260px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #000;
+    background: #fff;
+}
+.card__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.card__text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: #fff;
+}
+.card__disruption {
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+}
+.card__image {
+    position: absolute;
+    left: -90px;
+    top: 50%;
+    z-index: -1;
+    transform: translate(0, -50%);
+}
+
+.list {
+    margin: 120px 35px 0 120px;
+}
+.list__items {
+    position: relative;
+    width: 100%;
+    gap: 50px;
+}
+.list__items + .list__items {
+    margin-top: 135px;
+}
+
+.nav {
+    margin-top: 100px;
+}
+.nav__title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #000;
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.nav__items {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.nav__items::before {
+    content: "";
+    position: static;
+    display: block;
+    width: 275px;
+    height: 1px;
+    background-color: #5044ae;
+}
+.nav__items::after {
+    content: "";
+    position: absolute;
+    left: 275px;
+    top: 50%;
+    width: 3px;
+    height: 3px;
+    background-color: #5044ae;
+    transform: translate(0, -50%) rotate(40deg);
+}
+.nav__link {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #5044ae;
+}
+
+.blockDownload {
+    margin-top: 50px;
+}
+
+/*# sourceMappingURL=main.css.map */

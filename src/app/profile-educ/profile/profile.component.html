@@ -1,0 +1,56 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-educ', 'profile-company']"
+        class="profile__links-item profile__links-item--active">Данные</a>
+    <a [routerLink]="['', 'profile-educ', 'statements']" class="profile__links-item">Мои заявления</a>
+    <a [routerLink]="['', 'profile-educ', 'employees']" class="profile__links-item">Сотрудники</a>
+</div>
+
+<h2 class="profile__title">Основная информация</h2>
+<hr class="profile__title-hr">
+
+<div class="reg__wrapper">
+    <div class="reg__item">
+        <p class="reg__title">Организационно-правовая форма</p>
+        <select name="" id="" class="reg__item-education--select">
+            <option value="">Полное товарищенство</option>
+            <option value="">Индивидуальное товарищество</option>
+            <option value="">Коммандитное товарищество</option>
+        </select>
+    </div>
+    <div class="reg__item">
+        <p class="reg__title">Полное наименование</p>
+        <input type="text" class="reg__item-input" placeholder="CyberSquad Corporate infinity 2021">
+    </div>
+    <div class="reg__item">
+        <p class="reg__title">Почта организации</p>
+        <input type="email" class="reg__item-input" placeholder="danilsoul2777@gmail.com">
+    </div>
+    <div class="reg__item">
+        <p class="reg__title">ИНН</p>
+        <input type="text" class="reg__item-input" placeholder="xxxxxхххххххx">
+    </div>
+    <div class="reg__item">
+        <p class="reg__title">ИНН</p>
+        <input type="text" class="reg__item-input" placeholder="хххххххххх">
+    </div>
+    <button class="reg__btn">Редактировать</button>
+</div>
+
+<h2 class="profile__title">Информация о руководителе</h2>
+<hr class="profile__title-hr">
+
+<div class="reg__wrapper">
+    <div class="reg__item">
+        <p class="reg__title">Служебный номер</p>
+        <input type="text" class="reg__item-input" placeholder="8(920) 298-91-29">
+    </div>
+    <div class="reg__item">
+        <p class="reg__title">ФИО руководителя</p>
+        <input type="email" class="reg__item-input" placeholder="Воробьёв Александр Данилович">
+    </div>
+    <div class="reg__item">
+        <p class="reg__title">Служебная почта</p>
+        <input type="text" class="reg__item-input" placeholder="danilsoul2777@gmail.com">
+    </div>
+    <button class="reg__btn reg__btn-two">Редактировать</button>
+</div>

@@ -1,0 +1,34 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-people', 'profile']" class="profile__links-item">Данные</a>
+    <a [routerLink]="['', 'profile-people', 'statement']" class="profile__links-item">Мои заявления</a>
+    <a [routerLink]="['', 'profile-people', 'tests']" class="profile__links-item">Тестирования</a>
+    <a [routerLink]="['', 'profile-people', 'favorites']" class="profile__links-item">Избранное</a>
+    <a [routerLink]="['', 'profile-people', 'organization']"
+        class="profile__links-item profile__links-item--active">Организации</a>
+    <a [routerLink]="['', 'profile-people', 'study']" class="profile__links-item">Учусь/работаю</a>
+</div>
+
+<h2 class="profile__title">Мои организации</h2>
+<hr class="profile__title-hr">
+
+<div class="organization">
+    <a class="organization__item">
+        <p class="organization__item-text">№ ОРГАНИЗАЦИИ:
+            <span> 212345567</span>
+        </p>
+        <p class="organization__item-date">Служебрый адрес электронной почты:
+            <span> moyorganizacia@mail.ru</span>
+        </p>
+    </a>
+</div>
+
+<h2 class="profile__title">Тестирования ребёнка</h2>
+<hr class="profile__title-hr">
+
+<div class="organization">
+    <a class="organization__item">
+        <p class="organization__item-text">Добавить организацию к своему портфелю</p>
+        <button class="organization__item-btn">Добавить организацию</button>
+    </a>
+    <hr class="organization__hr">
+</div>

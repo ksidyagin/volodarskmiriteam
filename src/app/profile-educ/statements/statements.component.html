@@ -1,0 +1,45 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-educ', 'profile-company']" class="profile__links-item">Данные</a>
+    <a [routerLink]="['', 'profile-educ', 'statements']" class="profile__links-item profile__links-item--active">Мои
+        заявления</a>
+    <a [routerLink]="['', 'profile-educ', 'employees']" class="profile__links-item">Сотрудники</a>
+</div>
+
+<h2 class="profile__title">Поданные заявления</h2>
+<hr class="profile__title-hr">
+
+<div class="statements">
+    <a class="statements__item" [routerLink]="['', 'profile-company', 'statements-open']">
+        <p class="statement__item-text">Регистрация учеников и голосование</p>
+        <p class="statement__item-date">20.11.2021, 14:34</p>
+    </a>
+</div>
+
+<h2 class="profile__title">Черновики</h2>
+<hr class="profile__title-hr">
+
+<div class="drafts">
+    <div class="drafts__item">
+        <div class="drafts__item-inner">
+            <p class="drafts__item-text">Регистрация учеников и голосование</p>
+            <p class="drafts__item-date">20.11.2021, 14:34</p>
+        </div>
+        <div class="drafts__item-btns">
+            <div class="drafts__item-btn--edit">Редактировать</div>
+            <div class="drafts__item-btn-send">Отправить</div>
+        </div>
+        <hr class="drafts__hr">
+    </div>
+
+    <div class="drafts__item">
+        <div class="drafts__item-inner">
+            <p class="drafts__item-text">Регистрация учеников и голосование</p>
+            <p class="drafts__item-date">20.11.2021, 14:34</p>
+        </div>
+        <div class="drafts__item-btns">
+            <div class="drafts__item-btn--edit">Редактировать</div>
+            <div class="drafts__item-btn-send">Отправить</div>
+        </div>
+        <hr class="drafts__hr">
+    </div>
+</div>

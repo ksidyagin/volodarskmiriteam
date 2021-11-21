@@ -1,0 +1,111 @@
+.header {
+  width: 100%;
+}
+
+.header__top {
+  background: #3b4256;
+}
+
+.header__top-wrapper {
+  width: 100%;
+  padding: 11px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__top-phone,
+.header__top-login {
+  display: flex;
+  align-items: center;
+}
+
+.header__top-phone--img,
+.header__top-city--img,
+.header__top-login--img {
+  width: 29px;
+  height: 29px;
+  margin-right: 9px;
+}
+
+.header__top-login--text {
+  margin: 0 9px;
+}
+
+.header__top-phone--text,
+.header__top-phone--under,
+.header__top-login--text {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff !important;
+}
+
+.header__top-phone--under,
+.header__top-phone--under,
+.header__top-login--text {
+  text-decoration-line: underline;
+}
+
+.header__top-city {
+  display: flex;
+  align-items: center;
+}
+
+.header__main {
+  width: 100%;
+  background: #5044ae;
+  box-shadow: 0px 4px 4px rgba(58, 48, 137, 0.25);
+}
+
+.header__main-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 0;
+}
+
+.header__main-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__main-logo--img {
+  width: 56px;
+  margin-right: 27px;
+}
+
+.header__main-logo--district {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.header__main-logo--name {
+  font-weight: normal;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+}
+
+.header__list-item {
+  margin-left: 35px;
+}
+
+.header__list-link {
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.header__list-link:hover {
+  color: #ffffff;
+  text-decoration-line: underline;
+}

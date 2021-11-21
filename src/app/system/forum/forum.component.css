@@ -1,0 +1,121 @@
+.filter {
+    filter: drop-shadow(0px 4px 4px #5044ae);
+}
+p {
+    margin: 10px 5px 10px 5px;
+}
+
+.search-input {
+    height: 40px;
+    width: 98%;
+    margin-left: 2%;
+    border-width: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.bgcolor {
+    background: rgba(80, 68, 174, 0.8);
+}
+
+.search-table {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.searchconteiner {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: rgba(80, 68, 174, 1);
+    border-radius: 10px;
+}
+
+.searchbutton {
+    background: white;
+    margin-right: 10%;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+}
+
+.title {
+    color: #383636;
+    font-size: 48px;
+    text-align: center;
+}
+
+.tegconteiner {
+    width: 80%;
+    height: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.teg {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    padding: 5px 7px 5px 7px;
+    filter: drop-shadow(0px 4px 4px gray);
+    border-radius: 15px;
+    background: white;
+    float: left;
+}
+
+.nickname {
+    font-weight: bolder;
+    height: 30px;
+}
+
+.recordcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.record {
+    margin: 0 auto 0 auto;
+    background: white;
+    width: 80%;
+    border-width: 3px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-size: 20px;
+    color: #383636;
+    margin: 20px 5px 20px 5px;
+}
+
+.record-title {
+    margin-bottom: 30px;
+    position: relative;
+    right: 0;
+    padding: 15px 85px;
+    background: rgba(80, 68, 174, 0.8);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    border-radius: 15px 15px 0 0;
+    color: #ffffff;
+}

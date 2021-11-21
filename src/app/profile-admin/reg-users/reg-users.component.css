@@ -1,0 +1,113 @@
+.profile__title {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #383636;
+    margin-bottom: 25px;
+}
+
+.profile__title-hr {
+    height: 0px;
+    border: 1px solid #5044ae;
+    margin-bottom: 44px;
+    width: 40%;
+}
+
+.profile__links {
+    width: 100%;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile__links-item {
+    width: 13%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #383636;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #5044ae;
+    transition: all 0.5s;
+}
+
+.profile__links-item--active {
+    color: #5044ae;
+}
+
+.profile__links-item:hover {
+    color: #5044ae;
+    text-decoration-line: none;
+}
+
+.reg__item {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+.reg__title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #383636;
+    margin-bottom: 15px;
+}
+
+.reg__item-education--select {
+    width: 30%;
+    background: #ffffff;
+    border: 1px solid #5044ae;
+    box-shadow: 0px 4px 4px rgba(80, 68, 174, 0.25);
+    border-radius: 15px;
+    padding: 6px 20px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #5044ae;
+}
+
+.reg__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.reg__item-input {
+    width: auto;
+    padding: 6px 20px;
+    background: #ffffff;
+    border: 1px solid #5044ae;
+    box-shadow: 0px 4px 4px rgba(80, 68, 174, 0.25);
+    border-radius: 15px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: #5044ae;
+}
+
+.reg__btn {
+    width: 25%;
+    text-align: center;
+    background: #5044ae;
+    border-radius: 15px;
+    padding: 5px 12px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    color: #ffffff;
+    border: none;
+    margin: 20px 30px 40px 0;
+    display: block;
+}
+
+.reg__hr {
+    height: 0px;
+    border: 1px solid #5044ae;
+    filter: blur(2px);
+    width: 30%;
+}

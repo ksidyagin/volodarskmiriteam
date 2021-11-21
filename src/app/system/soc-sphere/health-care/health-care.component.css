@@ -1,0 +1,144 @@
+.title {
+    font-size: 48px;
+    color: #383636;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.frametitle {
+    font-weight: bolder;
+    font-size: 32px;
+    color: #383636;
+    text-align: center;
+}
+
+.leftframe {
+    width: 750px;
+    margin-top: 30px;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: gray;
+    float: left;
+}
+
+.rightframe {
+    width: 750px;
+    margin-top: 30px;
+    align-items: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 25px;
+    border-color: gray;
+    float: right;
+}
+
+.inframe {
+    text-align: center;
+    font-size: 25px;
+    max-width: 700px;
+    background: rgba(80, 68, 174, 1);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+    color: #ffffff;
+}
+
+.leftplashka {
+    text-align: center;
+    font-size: 25px;
+    width: 670px;
+    background: rgba(80, 68, 174, 1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    color: #ffffff;
+    float: left;
+}
+
+.rightplashka {
+    text-align: center;
+    font-size: 25px;
+    width: 670px;
+    background: rgba(80, 68, 174, 1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    color: #ffffff;
+    float: right;
+}
+
+.rightplashka {
+    margin-right: 50px;
+    float: right;
+}
+
+.leftplashimg {
+    margin-left: 50px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.list__items {
+    width: 45%;
+}
+
+.list__link {
+    width: 100%;
+    display: block;
+}
+
+.list__items .leftplashka,
+.list__items .rightplashka {
+    width: 100%;
+}
+
+.list__items img {
+    width: 100%;
+}
+
+.text {
+    font-size: 25px;
+    color: #383636;
+}
+
+.otstup {
+    margin-left: 100px;
+}
+
+.list-footer {
+    width: 90%;
+    margin: 30px auto 200px;
+}
+
+.list-footer img {
+    width: 100%;
+}
+
+.plashka {
+    margin: 0 auto;
+    align-self: center;
+    text-align: center;
+    font-size: 25px;
+    width: 100%;
+    background: rgba(80, 68, 174, 1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 15px;
+    color: #ffffff;
+}

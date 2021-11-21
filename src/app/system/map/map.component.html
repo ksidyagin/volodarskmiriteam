@@ -1,0 +1,10 @@
+<div class="container">
+  <ya-map [center]="[56.30101529474633, 42.78946280479431]" [zoom]="8">
+    <ya-geoobject *ngFor="let geoObject of geoObjects" [feature]="geoObject.feature" [options]="geoObject.options">
+    </ya-geoobject>
+    <ya-clusterer [options]="clustererOptions">
+      <ya-placemark *ngFor="let placemark of placemarks" [geometry]="placemark.geometry"
+        [properties]="placemark.properties" [options]="placemark.options"></ya-placemark>
+    </ya-clusterer>
+  </ya-map>
+</div>

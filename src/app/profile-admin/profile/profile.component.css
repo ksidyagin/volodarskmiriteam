@@ -1,0 +1,262 @@
+.profile__title {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #383636;
+    margin-bottom: 25px;
+}
+
+.profile__title-hr {
+    height: 0px;
+    border: 1px solid #5044ae;
+    margin-bottom: 44px;
+    width: 40%;
+}
+
+.profile__links {
+    width: 100%;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile__links-item {
+    width: 13%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #383636;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #5044ae;
+    transition: all 0.5s;
+}
+
+.profile__links-item--active {
+    color: #5044ae;
+}
+
+.profile__links-item:hover {
+    color: #5044ae;
+    text-decoration-line: none;
+}
+
+.profile__top {
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.profile__avatar {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: max(360px, 300px, 260px);
+}
+
+.profile__avatar-status {
+    text-align: center;
+    margin: 0 auto 10px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #383636;
+}
+
+.profile__avatar-img {
+    width: 80%;
+    margin: 0 auto 15px;
+    filter: drop-shadow(0px 4px 4px rgba(80, 68, 174, 0.25));
+    border: 1px solid #5044ae;
+    border-radius: 15px;
+}
+
+.profile__avatar-btn {
+    width: 100%;
+    text-align: center;
+    background: #5044ae;
+    border-radius: 15px;
+    padding: 7px 15px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    border: none;
+}
+
+.profile__info {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: max(360px, 300px, 260px);
+}
+
+.profile__info-name {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #383636;
+    margin-bottom: 20px;
+}
+
+.profile__info-item {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #383636;
+    margin-bottom: 20px;
+}
+
+.profile__info-item span {
+    color: #5044ae;
+}
+
+.profile__info-btn {
+    width: 70%;
+    text-align: center;
+    background: #5044ae;
+    border-radius: 15px;
+    padding: 7px 15px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    border: none;
+    align-items: flex-end;
+}
+
+.profile__info-select {
+    width: 100%;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border: 1px solid #5044ae;
+    box-shadow: 0px 4px 4px rgba(80, 68, 174, 0.25);
+    border-radius: 15px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #383636;
+    padding: 10px;
+}
+
+.profile__hr {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #383636;
+    margin-bottom: 55px;
+}
+
+.childrens {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.childrens__info,
+.childrens__birth {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 55px;
+}
+
+.childrens__info-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.childrens__info-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #383636;
+    margin-bottom: 12px;
+}
+
+.childrens__info-field {
+    background: #ffffff;
+    border: 1px solid #5044ae;
+    box-shadow: 0px 4px 4px rgba(80, 68, 174, 0.25);
+    border-radius: 15px;
+    text-align: center;
+    padding: 7px 20px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: #5044ae;
+}
+
+.childrens__birth-item {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.childrens__birth-item:nth-child(1) .childrens__birth-field-number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.childrens__birth-item:nth-child(1) .childrens__birth-field-number span {
+    background: #ffffff;
+    border: 1px solid #5044ae;
+    box-shadow: 0px 4px 4px rgba(80, 68, 174, 0.25);
+    border-radius: 15px;
+    text-align: center;
+    padding: 7px 10px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: #5044ae;
+}
+
+.childrens__birth-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #383636;
+    margin-bottom: 12px;
+}
+
+.childrens__birth-field {
+    background: #ffffff;
+    border: 1px solid #5044ae;
+    box-shadow: 0px 4px 4px rgba(80, 68, 174, 0.25);
+    border-radius: 15px;
+    text-align: center;
+    padding: 7px 20px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    color: #5044ae;
+}
+
+.childrens__btn {
+    width: 30%;
+    text-align: center;
+    background: #5044ae;
+    border-radius: 15px;
+    padding: 7px 15px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px;
+    color: #ffffff;
+    border: none;
+    margin: 0 auto;
+    display: block;
+}

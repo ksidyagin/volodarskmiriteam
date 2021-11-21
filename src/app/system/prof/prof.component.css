@@ -1,0 +1,345 @@
+.main {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.main__title {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #383636;
+    margin-bottom: 25px;
+}
+
+.main__hr {
+    width: 40%;
+    height: 0px;
+    border: 1px solid #5044ae;
+    margin: 0 0 50px 0;
+}
+
+.prof__top {
+    width: 100%;
+}
+
+.prof__top-item {
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.prof__top-bg {
+    width: 100%;
+    max-height: 390px;
+}
+
+.prof__top-infolist {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 61%;
+}
+
+.prof__top-title {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+    color: #94ffec;
+    margin-bottom: 20px;
+}
+
+.prof__top-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    width: 90%;
+}
+
+.prof__top-info--img {
+    width: 33px;
+    height: 33px;
+    margin-right: 23px;
+}
+
+.prof__top-info span {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.prof__top-link {
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    width: 25%;
+    text-align: center;
+    padding: 10px 20px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #383636;
+    margin-top: 30px;
+    display: block;
+}
+
+.prof__top-link:hover {
+    color: #383636;
+}
+
+.activity {
+    margin-bottom: 90px;
+    width: 100%;
+}
+
+.activity__top,
+.activity__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.activity__top-item {
+    width: 32%;
+}
+
+.activity__top-item:nth-child(2) {
+    margin: 0 10px;
+}
+
+.activity__top-link,
+.activity__main-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.activity__top-bg,
+.activity__main-bg {
+    width: 100%;
+    height: max(300px, 100%);
+}
+
+.activity__top-title,
+.activity__main-title {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    display: flex;
+    align-items: center;
+    width: 85%;
+}
+
+.activity__top-title--img,
+.activity__main-title--img {
+    width: 37px;
+    height: 37px;
+    margin-right: 12px;
+}
+
+.activity__top-title span,
+.activity__main-title span {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.activity__main-item {
+    width: 100%;
+}
+
+.education {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.education__search {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #5044ae;
+    box-shadow: 7px 4px 4px rgba(80, 68, 174, 0.25);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    min-height: 65px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.education__search-select {
+    width: 20%;
+    border: none;
+    border-right: 1px solid #5044ae;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    color: #5044ae;
+    padding: 15px 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: transparent;
+}
+
+.education__search-input {
+    width: 80%;
+    padding: 15px 20px;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+}
+
+.education__search-input--btn {
+    position: absolute;
+    right: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #5044ae;
+    border-radius: 15px;
+    width: 10%;
+    text-align: center;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    border: none;
+}
+
+.education__filters {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 50px;
+}
+
+.education__filters-item {
+    width: 33%;
+    background: #5044ae;
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 12px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.education__filters-item:nth-child(1) {
+    border-radius: 15px 0px 0px 15px;
+}
+
+.education__filters-item:nth-child(3) {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.education__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.education__list-item {
+    width: 24%;
+    position: relative;
+}
+
+.education__list-item--img {
+    width: 100%;
+}
+
+.education__list-info {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education__list-info--title {
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+}
+
+.education__list-infobot {
+    width: 100%;
+    height: 60%;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education__list-infobot--text {
+    width: 98%;
+    text-align: center;
+    padding: 12px 20px;
+    background: rgba(80, 68, 174, 0.8);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.education__list-infobot--text:hover {
+    text-decoration-line: underline;
+    color: #ffffff;
+}
+
+.education__hr {
+    width: 100%;
+    height: 0px;
+    border: 1px solid #5044ae;
+    margin-bottom: 33px;
+}
+
+.education__news {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.education__news-item {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.education__news-item--img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.education__news-item--title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    color: #5044ae;
+    margin-bottom: 24px;
+}
+
+.education__news-item--text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #383636;
+}

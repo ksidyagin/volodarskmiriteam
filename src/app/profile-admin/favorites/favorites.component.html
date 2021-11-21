@@ -1,0 +1,39 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-admin', 'profile-admin']" class="profile__links-item">Данные</a>
+    <a [routerLink]="['', 'profile-admin', 'statement']" class="profile__links-item">Мои заявления</a>
+    <a [routerLink]="['', 'profile-admin', 'tests']" class="profile__links-item">Тестирования</a>
+    <a [routerLink]="['', 'profile-admin', 'favorites']"
+        class="profile__links-item profile__links-item--active">Избранное</a>
+    <a [routerLink]="['', 'profile-admin', 'organization']" class="profile__links-item">Организации</a>
+    <a [routerLink]="['', 'profile-admin', 'study']" class="profile__links-item">Учусь/работаю</a>
+    <a [routerLink]="['', 'profile-admin', 'reg-users']" class="profile__links-item">Регистрация пользователей</a>
+</div>
+
+<h2 class="profile__title">Избранное</h2>
+<hr class="profile__title-hr">
+
+<div class="favorites">
+    <div class="favorites__item">
+        <img src="../../../assets/images/profile-people/favorites__item-star.png" alt="" class="favorites__item-star">
+        <img src="../../../assets/images/profile-people/favorites__item-one.png" alt="" class="favorites__item-img">
+        <p class="favorites__item-title">Экскурсия на “Сеймовскую птицефабрику”</p>
+        <p class="favorites__item-text">
+          Одно из двух градообразующих предприятий. Начала работать в 1964-м году и занималась преимущественно производством яиц. С тех пор Сеймовская птицефабрика выросла во много раз и в настоящее время обеспечивает курятиной и яйцами не только Володарский район, но и Дзержинск и даже Нижний Новгород.
+        </p>
+        <div class="favorites__item-info">
+            <p class="favorites__item-info--title">Предварительная запись</p>
+
+            <p class="favorites__item-info--text">Сайт:
+                <span>http://seyma.ru</span>
+            </p>
+
+            <p class="favorites__item-info--text">Почта:
+                <span>http://seyma.ru</span>
+            </p>
+
+            <p class="favorites__item-info--text">Номер телефона:
+                <span>8(908) 238-25-00</span>
+            </p>
+        </div>
+    </div>
+</div>

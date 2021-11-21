@@ -1,0 +1,68 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-admin', 'profile-admin']" class="profile__links-item">Данные</a>
+    <a [routerLink]="['', 'profile-admin', 'statement']" class="profile__links-item profile__links-item--active">Мои
+        заявления</a>
+    <a [routerLink]="['', 'profile-admin', 'tests']" class="profile__links-item">Тестирования</a>
+    <a [routerLink]="['', 'profile-admin', 'favorites']" class="profile__links-item">Избранное</a>
+    <a [routerLink]="['', 'profile-admin', 'organization']" class="profile__links-item">Организации</a>
+    <a [routerLink]="['', 'profile-admin', 'study']" class="profile__links-item">Учусь/работаю</a>
+    <a [routerLink]="['', 'profile-admin', 'reg-users']" class="profile__links-item">Регистрация пользователей</a>
+</div>
+
+<h2 class="profile__title">Заявление</h2>
+<hr class="profile__title-hr">
+
+<div class="statement">
+    <div class="statement__inner">
+        <div class="statement__item">
+            <p class="statement__item-title">Тема:
+                <span> Сертификат вакцинации COVID-19</span>
+            </p>
+            <hr>
+        </div>
+        <div class="statement__item">
+            <p class="statement__item-text">Состояние:
+                <span> зарегистрировано</span>
+            </p>
+            <p class="statement__item-date">20.11.2021, 14:34</p>
+            <hr>
+        </div>
+        <div class="statement__item">
+            <p class="statement__item-text">Действие:
+                <span> заявление получено ведомством “Минздрав России”, сообщение доставленно</span>
+            </p>
+            <p class="statement__item-date">20.11.2021, 14:34</p>
+            <hr>
+        </div>
+        <div class="statement__item">
+            <p class="statement__item-text">Действие:
+                <span> заявление отправлено в ведомство</span>
+            </p>
+            <p class="statement__item-date">20.11.2021, 14:34</p>
+            <hr>
+        </div>
+        <div class="statement__item">
+            <p class="statement__item-text">Действие:
+                <span> зарегистрировано на портале</span>
+            </p>
+            <p class="statement__item-date">20.11.2021, 14:34</p>
+            <hr>
+        </div>
+        <div class="statement__docs">
+            <div class="statement__docs-item">
+                <p class="statement__docs-name">
+                    <img src="../../../assets/images/profile-people/pdf.png" alt="" class="statement__docs-name--img">
+                    <span>req_preview.pdf | 0.1 мб</span>
+                </p>
+                <p class="statement__doc-btn">Открыть</p>
+            </div>
+            <div class="statement__docs-item">
+                <p class="statement__docs-name">
+                    <img src="../../../assets/images/profile-people/xml.png" alt="" class="statement__docs-name--img">
+                    <span>req.xml | 0.1 мб</span>
+                </p>
+                <p class="statement__doc-btn">Открыть</p>
+            </div>
+        </div>
+    </div>
+</div>

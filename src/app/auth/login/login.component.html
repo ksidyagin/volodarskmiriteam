@@ -1,0 +1,44 @@
+<div class="login">
+    <div class="container-auth">
+        <div class="login__wrapper">
+            <div class="login__top">
+                <img src="../../../assets/images/auth/auth-logo.png" alt="" class="login__top-img">
+                <p class="login__top-district">Володарский район
+                    <br>
+                    <span class="login__top-name">Официальный сайт</span>
+                </p>
+            </div>
+
+            <div class="login__title">
+                Авторизация
+            </div>
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="login__item">
+                    <p class="login__item-text">Телефон/еmail</p>
+                    <input formControlName="email" type="text" class="login__item-input" placeholder="your_login">
+                    <p class="form-error" *ngIf="registerForm.get('email').errors && registerForm.get('email').touched">
+                        Поле обязательно!</p>
+                </div>
+                <div class="login__item">
+                    <p class="login__item-text">Пароль</p>
+                    <input formControlName="password" type="password" class="login__item-input" placeholder="your_login">
+                    <p class="form-error" *ngIf="registerForm.get('password').errors && registerForm.get('password').touched">
+                        Пароль обязателен</p>
+                </div>
+    
+                <button class="login__btn" type="submit" [disabled]="registerForm.invalid">Войти</button>
+            </form>
+            
+
+            <div class="login__footer">
+                <div class="login__footer-text">
+                    <span>Если нет аккаунта,</span>
+                    <a [routerLink]="['', 'auth', 'register']" class="login__footer-reg"> зарегистрируйтесь!</a>
+                </div>
+                <div class="login__footer-text">
+                    <a class="login__footer-reg">Забыли пароль?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

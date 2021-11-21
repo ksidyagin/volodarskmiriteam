@@ -1,0 +1,86 @@
+.main {
+    width: 100%;
+    margin: 100px auto;
+}
+
+.tabs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+    margin: 0 auto 50px;
+}
+
+.tabs > section {
+    display: none;
+    padding: 30px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+.tabs > section > p {
+    margin: 0 0 5px;
+    line-height: 1.5;
+    color: #383838;
+}
+
+.tabs > input {
+    display: none;
+    position: absolute;
+}
+
+.tabs > label {
+    text-transform: uppercase;
+    display: inline-block;
+    flex: 1 0 auto;
+    margin: 0 0 -1px;
+    padding: 15px 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #aaa;
+    border: 0px solid #ddd;
+    border-width: 1px 1px 1px 1px;
+    background: #f1f1f1;
+    border-radius: 3px 3px 0 0;
+}
+
+.tabs > label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.tabs > label:hover {
+    color: #888;
+    cursor: pointer;
+}
+
+.tabs > input:checked + label {
+    color: #555;
+    border-top: 5px solid #401eda;
+    background: #fff;
+}
+
+#tab1:checked ~ #content-tab1,
+#tab2:checked ~ #content-tab2,
+#tab3:checked ~ #content-tab3,
+#tab4:checked ~ #content-tab4 {
+    display: block;
+}
+
+@media screen and (max-width: 680px) {
+    .tabs > label {
+        font-size: 15px;
+    }
+    .tabs > label:before {
+        margin: 0;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tabs > label {
+        padding: 15px;
+    }
+}

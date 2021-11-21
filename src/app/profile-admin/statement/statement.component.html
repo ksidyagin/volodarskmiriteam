@@ -1,0 +1,49 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-admin', 'profile-admin']" class="profile__links-item">Данные</a>
+    <a [routerLink]="['', 'profile-admin', 'statement']" class="profile__links-item profile__links-item--active">Мои
+        заявления</a>
+    <a [routerLink]="['', 'profile-admin', 'tests']" class="profile__links-item">Тестирования</a>
+    <a [routerLink]="['', 'profile-admin', 'favorites']" class="profile__links-item">Избранное</a>
+    <a [routerLink]="['', 'profile-admin', 'organization']" class="profile__links-item">Организации</a>
+    <a [routerLink]="['', 'profile-admin', 'study']" class="profile__links-item">Учусь/работаю</a>
+    <a [routerLink]="['', 'profile-admin', 'reg-users']" class="profile__links-item">Регистрация пользователей</a>
+</div>
+
+<h2 class="profile__title">Поданные заявления</h2>
+<hr class="profile__title-hr">
+
+<div class="statements">
+    <a class="statements__item" [routerLink]="['', 'profile-people', 'statement-open']">
+        <p class="statement__item-text">Регистрация учеников и голосование</p>
+        <p class="statement__item-date">20.11.2021, 14:34</p>
+    </a>
+</div>
+
+<h2 class="profile__title">Черновики</h2>
+<hr class="profile__title-hr">
+
+<div class="drafts">
+    <div class="drafts__item">
+        <div class="drafts__item-inner">
+            <p class="drafts__item-text">Регистрация учеников и голосование</p>
+            <p class="drafts__item-date">20.11.2021, 14:34</p>
+        </div>
+        <div class="drafts__item-btns">
+            <div class="drafts__item-btn--edit">Редактировать</div>
+            <div class="drafts__item-btn-send">Отправить</div>
+        </div>
+        <hr class="drafts__hr">
+    </div>
+
+    <div class="drafts__item">
+        <div class="drafts__item-inner">
+            <p class="drafts__item-text">Регистрация учеников и голосование</p>
+            <p class="drafts__item-date">20.11.2021, 14:34</p>
+        </div>
+        <div class="drafts__item-btns">
+            <div class="drafts__item-btn--edit">Редактировать</div>
+            <div class="drafts__item-btn-send">Отправить</div>
+        </div>
+        <hr class="drafts__hr">
+    </div>
+</div>

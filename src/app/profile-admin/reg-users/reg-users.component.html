@@ -1,0 +1,47 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-admin', 'profile-admin']" class="profile__links-item">Данные</a>
+    <a [routerLink]="['', 'profile-admin', 'statement']" class="profile__links-item">Мои заявления</a>
+    <a [routerLink]="['', 'profile-admin', 'tests']" class="profile__links-item">Тестирования</a>
+    <a [routerLink]="['', 'profile-admin', 'favorites']" class="profile__links-item">Избранное</a>
+    <a [routerLink]="['', 'profile-admin', 'organization']" class="profile__links-item">Организации</a>
+    <a [routerLink]="['', 'profile-admin', 'study']" class="profile__links-item">Учусь/работаю</a>
+    <a [routerLink]="['', 'profile-admin', 'reg-users']"
+        class="profile__links-item profile__links-item--active">Регистрация пользователей</a>
+</div>
+
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <div class="reg__wrapper">
+        <div class="reg__item">
+            <p class="reg__title">Полное наименование</p>
+            <input formControlName="name"  type="text" class="reg__item-input">
+        </div>
+        <div class="reg__item">
+            <p class="reg__title">ОГРН</p>
+            <input formControlName="ogrn" type="text" class="reg__item-input">
+        </div>
+        <div class="reg__item">
+            <p class="reg__title">ИНН</p>
+            <input formControlName="inn" type="text" class="reg__item-input">
+        </div>
+    </div>
+    <button type="submit" [disabled]="registerForm.invalid" class="reg__btn">Сгенерировать</button>
+</form>
+
+
+<hr class="reg__hr">
+
+<div class="reg__wrapper">
+    <div class="reg__item">
+        <p class="reg__title">Логин</p>
+        <input [(ngModel)]="login" type="text" class="reg__item-input">
+    </div>
+    <div class="reg__item">
+        <p class="reg__title">Пароль</p>
+        <input [(ngModel)]="password" type="text" class="reg__item-input">
+    </div>
+</div>
+
+<div class="reg__wrapper">
+    <button class="reg__btn">Распечатать</button>
+    <button class="reg__btn">В PDF</button>
+</div>

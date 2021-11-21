@@ -1,0 +1,122 @@
+<div class="profile__links">
+    <a [routerLink]="['', 'profile-people', 'profile']"
+        class="profile__links-item profile__links-item--active">Данные</a>
+    <a [routerLink]="['', 'profile-people', 'statement']" class="profile__links-item">Мои заявления</a>
+    <a [routerLink]="['', 'profile-people', 'tests']" class="profile__links-item">Тестирования</a>
+    <a [routerLink]="['', 'profile-people', 'favorites']" class="profile__links-item">Избранное</a>
+    <a [routerLink]="['', 'profile-people', 'organization']" class="profile__links-item">Организации</a>
+    <a [routerLink]="['', 'profile-people', 'study']" class="profile__links-item">Учусь/работаю</a>
+</div>
+
+<div class="profile__top">
+    <div class="profile__avatar">
+        <img src="../../../assets/images/profile-people/avatar.png" alt="" class="profile__avatar-img">
+        <button class="profile__avatar-btn">Добавить фото</button>
+    </div>
+
+    <div class="profile__info">
+        <h3 class="profile__info-name">Иванов Иван Иванович</h3>
+        <p class="profile__info-item">Дата рождения:
+            <span>
+                11.07.2003
+            </span>
+        </p>
+        <p class="profile__info-item">СНИЛС:
+            <span>
+                ххх-ххх-ххх хх
+            </span>
+        </p>
+        <p class="profile__info-item">Почта:
+            <span>
+                ххххххх@gmail.com
+            </span>
+        </p>
+        <p class="profile__info-item">Телефон:
+            <span>
+                8(920)-000-00-00
+            </span>
+        </p>
+        <button class="profile__info-btn">Редактировать</button>
+    </div>
+
+    <div class="profile__info">
+        <select class="profile__info-select">
+            <option value="" class="profile__info-select">Документ подтверждающий личность</option>
+            <option value="" class="profile__info-select">Паспорт</option>
+            <option value="" class="profile__info-select">Водительские права</option>
+            <option value="" class="profile__info-select">Вид на жительство</option>
+        </select>
+        <p class="profile__info-item">Серия:
+            <span>
+                хх-хх
+            </span>
+        </p>
+        <p class="profile__info-item">Номер:
+            <span>
+                хххххх
+            </span>
+        </p>
+        <p class="profile__info-item">Кем выдано:
+            <span>
+                Отделом УФМС России по Нижегородской области, гор. Н.Новгорода
+            </span>
+        </p>
+        <p class="profile__info-item">Когда:
+            <span>
+                10.08.2010
+            </span>
+        </p>
+        <button class="profile__info-btn">Редактировать</button>
+    </div>
+</div>
+
+<hr class="profile__hr">
+
+<div class="childrens">
+    <h2 class="profile__title">Информация о ребёнке</h2>
+    <hr class="profile__title-hr">
+
+    <div class="childrens__info">
+        <div class="childrens__info-item">
+            <p class="childrens__info-title">Дата рождения ребёнка:</p>
+            <p class="childrens__info-field">29.09.2027</p>
+        </div>
+        <div class="childrens__info-item">
+            <p class="childrens__info-title">ФИО ребёнка</p>
+            <p class="childrens__info-field">Иванов Виктор Иванович</p>
+        </div>
+        <div class="childrens__info-item">
+            <p class="childrens__info-title">Учебное заведение ребёнка</p>
+            <p class="childrens__info-field">Иванов Виктор Иванович</p>
+        </div>
+    </div>
+
+    <h2 class="profile__title">Свидетельство о рождении</h2>
+    <hr class="profile__title-hr">
+
+    <div class="childrens__birth">
+        <div class="childrens__birth-item">
+            <p class="childrens__birth-title">Серия и номер</p>
+            <p class="childrens__birth-field-number">
+                <span>III</span>
+                -
+                <span>III</span>
+                <span>123456</span>
+            </p>
+        </div>
+        <div class="childrens__info-item">
+            <p class="childrens__birth-title">Кем выдано</p>
+            <p class="childrens__birth-field">Муниципальное учреждение г...</p>
+        </div>
+        <div class="childrens__birth-item">
+            <p class="childrens__birth-title">Когда выдана</p>
+            <p class="childrens__birth-field">29.09.2027</p>
+        </div>
+        <div class="childrens__birth-item">
+            <p class="childrens__birth-title">Номер актовой записи</p>
+            <p class="childrens__birth-field">777</p>
+        </div>
+    </div>
+
+    <button class="childrens__btn">Добавить ребёнка</button>
+</div>
